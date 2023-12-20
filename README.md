@@ -6,5 +6,7 @@ The Favorites bar not implemented. Drag-and-drop feature from diary to favorites
 
 App can be iniated with NodeJS with the following commands:
 npm init
+
 npm run build
+
 serve -s build
