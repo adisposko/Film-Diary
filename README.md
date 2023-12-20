@@ -5,6 +5,7 @@ Currently can only add films from a local database of 30 films. Requests to The 
 The Favorites bar not implemented. Drag-and-drop feature from diary to favorites will be implemented.
 
 App can be iniated with NodeJS with the following commands:
+
 npm init
 
 npm run build
