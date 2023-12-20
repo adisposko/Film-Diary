@@ -1,0 +1,15 @@
+.diaryEntry {
+    align-content: center;
+    margin-top: 3%;
+    background-color: #e74c2b;
+    padding: 2%;
+    font-weight: bold;
+}
+
+li .info {
+    text-align: left;
+    display: inline-block;
+    margin-left: 3%;
+    vertical-align: top;
+    width: 70%;
+}

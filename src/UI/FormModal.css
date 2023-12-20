@@ -1,0 +1,18 @@
+.modal label {
+    font-size: 1.1em;
+}
+
+.modal input {
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.modal button {
+    background-color: #E74C2B;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10px;
+}

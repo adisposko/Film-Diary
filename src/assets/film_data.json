@@ -1,0 +1,214 @@
+{
+    "filmData": [
+        {
+            "id": "00",
+            "title": "Gentlemen Prefer Blondes",
+            "year": 1953,
+            "director": "Howard Hawks",
+            "runtime": 91
+        },
+        {
+            "id": "01",
+            "title": "His Girl Friday",
+            "year": 1940,
+            "director": "Howard Hawks",
+            "runtime": 92
+        },
+        {
+            "id": "02",
+            "title": "Bringing Up Baby",
+            "year": 1938,
+            "director": "Howard Hawks",
+            "runtime": 102
+        },
+        {
+            "id": "03",
+            "title": "The Big Sleep",
+            "year": 1946,
+            "director": "Howard Hawks",
+            "runtime": 114
+        },
+        {
+            "id": "04",
+            "title": "Rio Bravo",
+            "year": 1959,
+            "director": "Howard Hawks",
+            "runtime": 141
+        },
+        {
+            "id": "05",
+            "title": "Scarface",
+            "year": 1932,
+            "director": "Howard Hawks",
+            "runtime": 93
+        },
+        {
+            "id": "06",
+            "title": "Seven Samurai",
+            "year": 1954,
+            "director": "Akira Kurosawa",
+            "runtime": 207
+        },
+        {
+            "id": "07",
+            "title": "Rashomon",
+            "year": 1950,
+            "director": "Akira Kurosawa",
+            "runtime": 88
+        },
+        {
+            "id": "08",
+            "title": "Ran",
+            "year": 1985,
+            "director": "Akira Kurosawa",
+            "runtime": 160
+        },
+        {
+            "id": "09",
+            "title": "Dreams",
+            "year": 1990,
+            "director": "Akira Kurosawa",
+            "runtime": 119
+        },
+        {
+            "id": "10",
+            "title": "High and Low",
+            "year": 1963,
+            "director": "Akira Kurosawa",
+            "runtime": 142
+        },
+        {
+            "id": "11",
+            "title": "Yojimbo",
+            "year": 1961,
+            "director": "Akira Kurosawa",
+            "runtime": 110
+        },
+        {
+            "id": "12",
+            "title": "Sanjuro",
+            "year": 1962,
+            "director": "Akira Kurosawa",
+            "runtime": 96
+        },
+        {
+            "id": "13",
+            "title": "Ikiru",
+            "year": 1952,
+            "director": "Akira Kurosawa",
+            "runtime": 143
+        },
+        {
+            "id": "14",
+            "title": "Aguirre, the Wrath of God",
+            "year": 1972,
+            "director": "Werner Herzog",
+            "runtime": 95
+        },
+        {
+            "id": "15",
+            "title": "Nosferatu the Vampyre",
+            "year": 1979,
+            "director": "Werner Herzog",
+            "runtime": 107
+        },
+        {
+            "id": "16",
+            "title": "Grizzly Man",
+            "year": 2005,
+            "director": "Werner Herzog",
+            "runtime": 103
+        },
+        {
+            "id": "17",
+            "title": "Fitzcarraldo",
+            "year": 1982,
+            "director": "Werner Herzog",
+            "runtime": 157
+        },
+        {
+            "id": "18",
+            "title": "Bad Lieutenant: Port of Call - New Orleans",
+            "year": 2009,
+            "director": "Werner Herzog",
+            "runtime": 122
+        },
+        {
+            "id": "19",
+            "title": "Stroszek",
+            "year": 1977,
+            "director": "Werner Herzog",
+            "runtime": 107
+        },
+        {
+            "id": "20",
+            "title": "Woyzeck",
+            "year": 1979,
+            "director": "Werner Herzog",
+            "runtime": 82
+        },
+        {
+            "id": "21",
+            "title": "Tokyo Story",
+            "year": 1953,
+            "director": "Yasujiro Ozu",
+            "runtime": 137
+        },
+        {
+            "id": "22",
+            "title": "Late Spring",
+            "year": 1949,
+            "director": "Yasujiro Ozu",
+            "runtime": 110
+        },
+        {
+            "id": "23",
+            "title": "Good Morning",
+            "year": 1959,
+            "director": "Yasujiro Ozu",
+            "runtime": 94
+        },
+        {
+            "id": "24",
+            "title": "An Autumn Afternoon",
+            "year": 1962,
+            "director": "Yasujiro Ozu",
+            "runtime": 114
+        },
+        {
+            "id": "25",
+            "title": "Tokyo Twilight",
+            "year": 1957,
+            "director": "Yasujiro Ozu",
+            "runtime": 141
+        },
+        {
+            "id": "26",
+            "title": "Equinox Flower",
+            "year": 1958,
+            "director": "Yasujiro Ozu",
+            "runtime": 118
+        },
+        {
+            "id": "27",
+            "title": "GoodFellas",
+            "year": 1990,
+            "director": "Martin Scorsese",
+            "runtime": 145
+        },
+        {
+            "id": "28",
+            "title": "The Irishman",
+            "year": 2019,
+            "director": "Martin Scorsese",
+            "runtime": 209
+        },
+        {
+            "id": "29",
+            "title": "Silence",
+            "year": 2016,
+            "director": "Martin Scorsese",
+            "runtime": 161
+        }
+    ]
+}
