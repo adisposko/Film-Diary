@@ -4,7 +4,6 @@ import Header from './UI/Header';
 import Diary from './UI/Diary';
 import Favorites from './UI/Favorites';
 import Modal from './UI/Modal';
-import * as filmDataHandler from './Utility/filmDataHandler';
 import filterFilms from './Utility/filteringLogic';
 import sortFilms from './Utility/sortingLogic';
 
@@ -12,7 +11,7 @@ export default function App() {
   let unfilteredDiary = useRef([]);
   const [displayedDiary, setDisplayedDiary] = useState(unfilteredDiary.current);
   const favesArray = [null, null, null, null, null];
-  const [modalActive, setModalActive] = useState(false);
+  const [isModalActive, setIsModalActive] = useState(false);
   let searchResults = useRef();
   const [modalType, setModalType] = useState();
   let filtered = useRef(false);
@@ -20,7 +19,7 @@ export default function App() {
 
   function modalActivation(modalArg) {
     setModalType(modalArg);
-    setModalActive(true);
+    setIsModalActive(true);
   }
 
   function onSearchClick(params) {
@@ -30,11 +29,10 @@ export default function App() {
 
   function addFilmToDiary(film, dmy) {
     film.dmy = dmy;
-    console.log(film.dmy);
     unfilteredDiary.current.unshift(film);
     filtered.current = false;
     setDisplayedDiary(unfilteredDiary.current);
-    setModalActive(false);
+    setIsModalActive(false);
   }
 
   function sortDiary(sortMethod, reverse) {
@@ -57,7 +55,7 @@ export default function App() {
   }
 
   function onBackdropClick() {
-    setModalActive(false);
+    setIsModalActive(false);
   }
 
   return(
@@ -66,7 +64,7 @@ export default function App() {
       <Diary displayedDiary={displayedDiary}/>
       <Favorites favesArray={favesArray}/>
 
-      {modalActive && (
+      {isModalActive && (
         <Modal modalType={modalType} modalActivation={modalActivation} onBackdropClick={onBackdropClick} displayedDiary={displayedDiary} onFilterConfirmClick={onFilterConfirmClick} onSearchClick={onSearchClick} searchResults={searchResults} addFilmToDiary={addFilmToDiary} filmToAdd={filmToAdd}/>
       )}
     </>

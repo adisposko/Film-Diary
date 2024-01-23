@@ -1,5 +1,5 @@
 import './SearchResultsModal.css';
-import DiaryEntry from './DiaryEntry';
+import FilmElement from './FilmElement';
 
 export default function SearchResultsModal(props) {
     const listToRender = props.searchResults.current.map(film => 
@@ -7,7 +7,7 @@ export default function SearchResultsModal(props) {
             props.filmToAdd.current = film;
             props.modalActivation("queryDate");
         }}>
-            <DiaryEntry film={film}/>
+            <FilmElement film={film}/>
         </div>
     )
     

@@ -1,5 +1,4 @@
 import './Header.css';
-import * as filmDataHandler from '../Utility/filmDataHandler';
 
 export default function Header(props) {
     return(

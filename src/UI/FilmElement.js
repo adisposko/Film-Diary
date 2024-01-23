@@ -1,9 +1,9 @@
-import './DiaryEntry.css';
+import './FilmElement.css';
 
-export default function DiaryEntry(props) {
+export default function FilmElement(props) {
     const film = props.film;
     return(
-        <li key={props.film.id} className="diaryEntry">
+        <li key={props.film.id} className="filmElement">
             <img src={`${process.env.PUBLIC_URL}/posters/${film.id}.jpg`} alt={film.title} width="100" height="150"></img>
             <div className="info">
                 <p>{film.title} ({film.year})</p>

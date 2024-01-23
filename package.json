@@ -1,11 +1,11 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0"
-  }
+  },
+  "description": ""
 }
