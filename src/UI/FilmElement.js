@@ -1,10 +1,14 @@
 import './FilmElement.css';
 
 export default function FilmElement(props) {
+    function onFilmDragHandler(e, posterURL, title) {
+        const obj = {posterURL: posterURL, title: title}
+        e.dataTransfer.setData("text/plain", JSON.stringify(obj));
+    }
+    
     const film = props.film;
     return(
-        <li key={props.film.id} className="filmElement">
-            {/* <img src={`${process.env.PUBLIC_URL}/posters/${film.id}.jpg`} alt={film.title} width="100" height="150"></img> */}
+        <li key={film.id} className="filmElement" draggable="true" onDragStart={(e) => onFilmDragHandler(e, film.posterURL, film.title)}>
             <img src={film.posterURL} alt={film.title}></img>
             <div className="info">
                 <p>{film.title} ({film.year})</p>

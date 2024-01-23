@@ -10,7 +10,7 @@ import sortFilms from './Utility/sortingLogic';
 export default function App() {
   let unfilteredDiary = useRef([]);
   const [displayedDiary, setDisplayedDiary] = useState(unfilteredDiary.current);
-  const favesArray = [null, null, null, null, null];
+  const [favesArray, setFavesArray] = useState([null, null, null, null, null]);
   const [isModalActive, setIsModalActive] = useState(false);
   let searchResults = useRef();
   const [modalType, setModalType] = useState();
@@ -62,7 +62,7 @@ export default function App() {
     <>
       <Header modalActivation={modalActivation} filtered={filtered} onRemoveFilterClick={onRemoveFilterClick} sortDiary={sortDiary}/>
       <Diary displayedDiary={displayedDiary}/>
-      <Favorites favesArray={favesArray}/>
+      <Favorites favesArray={favesArray} setFavesArray={setFavesArray}/>
 
       {isModalActive && (
         <Modal modalType={modalType} modalActivation={modalActivation} onBackdropClick={onBackdropClick} displayedDiary={displayedDiary} onFilterConfirmClick={onFilterConfirmClick} onSearchClick={onSearchClick} searchResults={searchResults} addFilmToDiary={addFilmToDiary} filmToAdd={filmToAdd}/>
