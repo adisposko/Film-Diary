@@ -4,7 +4,8 @@ export default function FilmElement(props) {
     const film = props.film;
     return(
         <li key={props.film.id} className="filmElement">
-            <img src={`${process.env.PUBLIC_URL}/posters/${film.id}.jpg`} alt={film.title} width="100" height="150"></img>
+            {/* <img src={`${process.env.PUBLIC_URL}/posters/${film.id}.jpg`} alt={film.title} width="100" height="150"></img> */}
+            <img src={film.posterURL} alt={film.title}></img>
             <div className="info">
                 <p>{film.title} ({film.year})</p>
                 <p>Directed by {film.director}</p>

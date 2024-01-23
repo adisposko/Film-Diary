@@ -6,6 +6,12 @@
     font-weight: bold;
 }
 
+.filmElement img {
+    height: 150px;
+    width: 100px;
+}
+
+
 li .info {
     text-align: left;
     display: inline-block;
