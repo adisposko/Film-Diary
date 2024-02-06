@@ -16,5 +16,7 @@ without having to load the server-side app.
 Initialize with terminal commands:
 
 npm install
+
 npm run build
+
 serve -s build
