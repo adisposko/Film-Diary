@@ -1,0 +1,49 @@
+{
+    "initialDiary": [
+        {
+            "id": "02",
+            "title": "Bringing Up Baby",
+            "year": 1938,
+            "director": "Howard Hawks",
+            "runtime": 102,
+            "posterURL": "https://media.themoviedb.org/t/p/w220_and_h330_face/xH8qj4jJGnXrcRPtbpieSKbJFiM.jpg",
+            "dmy": ["29", "01", "2024"]
+        },
+                {
+            "id": "07",
+            "title": "Rashomon",
+            "year": 1950,
+            "director": "Akira Kurosawa",
+            "runtime": 88,
+            "posterURL": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg",
+            "dmy": ["18", "01", "2024"]
+        },
+        {
+            "id": "10",
+            "title": "High and Low",
+            "year": 1963,
+            "director": "Akira Kurosawa",
+            "runtime": 142,
+            "posterURL": "https://media.themoviedb.org/t/p/w220_and_h330_face/brIrt0QxCVmkdALYQaVAzsQ8F2Q.jpg",
+            "dmy": ["03", "01", "2024"]
+        },
+        {
+            "id": "17",
+            "title": "Fitzcarraldo",
+            "year": 1982,
+            "director": "Werner Herzog",
+            "runtime": 157,
+            "posterURL": "https://media.themoviedb.org/t/p/w220_and_h330_face/1xGDGBNOjVU63fuDjmJwxEwpWYV.jpg",
+            "dmy": ["30", "12", "2023"]
+        },
+        {
+            "id": "23",
+            "title": "Good Morning",
+            "year": 1959,
+            "director": "Yasujiro Ozu",
+            "runtime": 94,
+            "posterURL": "https://media.themoviedb.org/t/p/w220_and_h330_face/q2nB2NFUi0jBYnLl2iuS2tcJTJ7.jpg",
+            "dmy": ["25", "12", "2023"]
+        }
+    ]
+}

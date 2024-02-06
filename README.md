@@ -1,11 +1,20 @@
-Browser-side React app. A diary of films watched, including watch date. Sorting and flitering the diary supported.
+Film Diary
 
-Limited functionality and future fixes: Currently can only add films from a JSON file containing 30 films, which is tentatively stored browser-side until server-side is implemented.
+Browser-side React app. Server-side ExpressJS app at https://github.com/adisposko/Film-Diary-Backend
 
-App can be iniated with NodeJS with the following commands:
+Functionality: A diary of films watched, including watch date.
+Can sort and filter the diary, and can mark favorite films.
 
-npm init
+Server-side provides limited database of 100 films to add from, including films
+directed by Akira Kurosawa, Werner Herzog, Martin Scorsese...
+Example: Search for films by director "kurosawa" or from the year of release "1962".
+Leave search parameters empty to choose from all films in the database.
 
+Initialized with existing diary entries to showcase functionality
+without having to load the server-side app.
+
+Initialize with terminal commands:
+
+npm install
 npm run build
-
 serve -s build

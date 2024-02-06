@@ -29,5 +29,5 @@
   "devDependencies": {
     "file-loader": "^6.2.0"
   },
-  "description": ""
+  "description": "Browser-side React app. A diary of films watched, including watch date. Sorting and flitering the diary supported."
 }
