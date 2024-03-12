@@ -10,7 +10,7 @@ import initialDiary from './assets/initial_diary.json';
 
 export default function App() {
   let unfilteredDiary = useRef(initialDiary.initialDiary); //tracking full, unfiltered diary allows us to remove filters on the displayed diary
-  const [displayedDiary, setDisplayedDiary] = useState(unfilteredDiary.current); //same as unfiltered until filters applied
+  const [displayedDiary, setDisplayedDiary] = useState(unfilteredDiary.current); //displayed diary same as unfiltered until filters applied
   const [favesArray, setFavesArray] = useState([null, null, null, null, null]); //tracks favorites for page footer "My favorites"
   const [isModalActive, setIsModalActive] = useState(false);
   let searchResults = useRef();
@@ -24,9 +24,10 @@ export default function App() {
   }
 
   function onSearchClick(params) {
-    // searchResults.current = filterFilms(...params);
-    console.log(`http://localhost:8000/film-search?title=${params[0]}&director=${params[1]}&year=${params[2]}`);
     fetch(`http://localhost:8000/film-search?title=${params[0]}&director=${params[1]}&year=${params[2]}`)
+    .catch(err => {
+      throw new Error("Server currently unavailable, try again later.");
+    })
     .then((response) => {
       if (response.status == 404) {
         throw new Error('No film in the database corresponds to your search!');
